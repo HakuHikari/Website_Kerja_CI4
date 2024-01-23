@@ -1,0 +1,287 @@
+/* isi css first container */
+.container {
+  
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Dua kolom */
+  gap: 20px; /* Jarak antar elemen */
+  align-items: center; /* Posisi vertikal */
+  padding: 50px; /* Padding jika diperlukan */
+}
+
+.display-4 {
+  margin-bottom: 20px;
+}
+
+.lead {
+  margin-bottom: 30px;
+}
+
+.text-big {
+  font-size: 3em;
+  text-transform: uppercase;
+  font-family: 'Overpass', sans-serif;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.text-small {
+  font-size: 0.8em;
+  font-family: 'Source Sans 3', sans-serif;
+  color: white;
+}
+
+
+.container .btn-lg {
+  display: inline-block;
+  transition: all 0.2s ease-in;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  color: #090909;
+  padding: 0.7em 1.7em;
+  cursor: pointer;
+  font-size: 18px;
+  border-radius: 0.5em;
+  background: #e8e8e8;
+  margin-top: 30px;
+}
+
+.container .btn-lg:active {
+  color: #666;
+  box-shadow: inset 4px 4px 12px #c5c5c5, inset -4px -4px 12px #ffffff;
+}
+
+.container .btn-lg:before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%) scaleY(1) scaleX(1.25);
+  top: 100%;
+  width: 140%;
+  height: 180%;
+  background-color: rgba(0, 0, 0, 0.05);
+  border-radius: 50%;
+  display: block;
+  transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);
+  z-index: -1;
+}
+
+.container .btn-lg:after {
+  content: "";
+  position: absolute;
+  left: 55%;
+  transform: translateX(-50%) scaleY(1) scaleX(1.45);
+  top: 180%;
+  width: 160%;
+  height: 190%;
+  background-color: #009087;
+  border-radius: 50%;
+  display: block;
+  transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);
+  z-index: -1;
+}
+
+.container .btn-lg:hover {
+  color: #ffffff;
+  border: 1px solid #009087;
+}
+
+.container .btn-lg:hover:before {
+  top: -35%;
+  background-color: #009087;
+  transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
+}
+
+.container .btn-lg:hover:after {
+  top: -45%;
+  background-color: #009087;
+  transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
+}
+
+
+.teks-besar {
+  font-size: 24px;
+}
+.teks-kecil {
+  font-size: 18px;
+}
+
+.image {
+  display: flex;
+  justify-content: flex-end; /* Untuk mengatur posisi gambar di bagian kanan */
+}
+
+.image img {
+  max-width: 100%; /* Sesuaikan ukuran gambar jika diperlukan */
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .hide-on-mobile {
+      display: none;
+  }
+}
+
+
+
+/* isi css middle container */
+.middle-container {
+  background-color: rgba(245, 245, 245);
+  margin-top: 75px;
+  background: linear-gradient(112.1deg, rgb() 11.4%, rgb(63, 76, 119) 70.2%); 
+  width: 100%;
+  padding: 20px;
+  border-radius: top 10px;
+}
+.middle-container .col-md-6 {
+  width: 100%;
+}
+
+
+.Deskripsi h2 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', Bold;
+  margin-top: 0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Menambahkan efek bayangan pada teks */
+  color: #3c6478; /* Memberikan warna hitam pada teks */
+}
+
+
+.Deskripsi {
+  text-align: left;
+  margin-top: 50px;
+}
+.middle-container img {
+  margin-top: 50px;
+  margin-left: 20px;
+  
+}
+
+.middle-container .Deskripsi {
+  margin-left: 20px;
+  background-color: beige;
+  margin-right: 30px;
+  color: #3c6478;
+  text-align: left;
+  border: 1px solid black; /* Mengatur bingkai kotak tipis */
+  padding: 10px;
+  
+  
+}
+
+@media screen and (max-width: 767px) {
+  .middle-container img,
+  .middle-container .Deskripsi {
+      margin-left: 0;
+      margin-right: 0;
+      
+  }
+}
+
+
+/* isi css bottom container */
+
+
+.bottom-container {
+  --color: rgba(30, 30, 30);
+  --bgColor: rgba(245, 245, 245);
+  min-height: 100vh;
+  display: grid;
+  align-content: center;
+  gap: 2rem;
+  padding: 2rem;
+  font-family: "Jura", sans-serif;
+  color: var(--color);
+  background: var(--bgColor);
+  text-align: center;
+}
+
+.bottom-container .category-text {
+  font-size: 3em;
+  text-transform: uppercase;
+  font-family: 'Overpass', sans-serif;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: black;
+}
+
+.bottom-container h1 {
+  text-align: center;
+}
+
+.bottom-container ul {
+  width: min(60rem, 90%);
+  margin-inline: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+  justify-content: center;
+  gap: 2rem;
+  list-style: none;
+}
+
+.bottom-container ul li {
+  max-width: 12rem;
+  justify-self: center;
+  display: grid;
+  grid-template:
+    "icon"
+    "line"
+    "dot"
+    "title"
+    "descr" 1fr;
+  justify-items: center;
+  align-items: flex-start;
+  text-align: center;
+}
+
+.bottom-container ul li .icon {
+  grid-area: icon;
+  width: 6rem;
+  aspect-ratio: 1;
+  display: grid;
+  place-items: center;
+  color: white;
+  font-size: 2.5rem;
+  border: 0.4rem solid var(--bgColor);
+  border-radius: 50%;
+  background: var(--accent-color);
+  box-shadow: -0.5rem 0.5rem 1rem rgba(0, 0, 0, 0.45),
+    inset -0.25rem 0.25rem 0.5rem rgba(0, 0, 0, 0.45);
+}
+
+.bottom-container ul li::before {
+  content: "";
+  grid-area: line;
+  height: 2rem;
+  border-right: 2px dotted currentColor;
+}
+
+.bottom-container ul li::after {
+  content: "";
+  grid-area: dot;
+  width: 1rem;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background: var(--accent-color);
+  justify-self: center;
+  margin-bottom: 0.5rem;
+}
+
+.bottom-container ul li .title {
+  grid-area: title;
+  margin-block: 0.5rem;
+  font-size: 1.3rem;
+  font-weight: 600;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.bottom-container .credits {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+}
+
+.bottom-container .credits a {
+  color: var(--color);
+}

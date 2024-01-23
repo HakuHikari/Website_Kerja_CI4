@@ -1,0 +1,17 @@
+.custom-container {
+    background-color: #ffffff;
+    /* Warna latar belakang untuk kontainer */
+    padding: 20px;
+    /* Ruang di sekitar kontainer */
+    margin-top: 50px;
+    /* Jarak dari atas */
+    border-radius: 8px;
+    /* Sudut melengkung untuk kontainer */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Efek bayangan untuk kontainer */
+
+ 
+}
+.input-group{
+    margin-top: 20px;
+}

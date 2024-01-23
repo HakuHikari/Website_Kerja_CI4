@@ -1,0 +1,114 @@
+
+.container {
+    margin-top: 20px;
+  }
+  
+  .card.about-card {
+    margin-left: 35px;
+    margin-top: 50px;
+   
+  }
+
+  .card.profile-card {
+    background-color: transparent;
+    border: none !important;
+    margin-left: 35px;
+    margin-top: 50px;
+   
+  }
+
+  .card.media-card{
+    margin-left: 35px;
+    margin-top: 50px;
+  }
+  
+  .card-img-top {
+    margin-left: 10px;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .card-title {
+    font-size: 18px;
+  }
+
+  
+  
+  .card-text.name {
+    font-size: 25px;
+    font-weight: bold;
+    border: none;
+  }
+  
+  .card-text.pronoun {
+    font-size: 18px;
+    font-style: italic;
+    color: #666;
+    border: none; 
+  }
+  
+  .card-text.role {
+    font-size: 14px;
+    color: #007bff;
+    border: none; /* Misalnya, warna biru untuk peran */
+  }
+  
+  .list-group {
+    
+    margin-bottom: 0;
+  }
+  
+  .list-group-item {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .list-group-item .icon {
+    margin-right: 10px;
+  }
+
+  .list-group-item i {
+    margin-right: 5px;
+  }
+  
+  .list-group-item a {
+    color: #333;
+  }
+  
+  .list-group-item a:hover {
+    text-decoration: none;
+    color: #000;
+  }
+  .editor-logo {
+    width: 20px; /* Adjust the width to your preference */
+    height: 20px; /* Adjust the height to your preference */
+    margin-right: 5px; /* Add some margin for spacing */
+  }
+  #socialMediaCarousel .carousel-item img {
+    height: 350px; /* Sesuaikan dengan tinggi yang diinginkan */
+    width: auto;   /* Menjamin gambar tidak terdistorsi */
+  }
+  @media (max-width: 767px) {
+    #socialMediaCarousel .carousel-item img {
+      height: 50vw; /* Sesuaikan dengan tinggi relatif yang diinginkan */
+      width: auto;   /* Menjamin gambar tidak terdistorsi */
+    }
+  }
+
+  .fab.fa-github {
+    color: black;
+  }
+  .follow-text{
+    font-family: 'Caudex', serif;
+  }
+  
+  /* Gradient untuk ikon Instagram */
+  .fab.fa-instagram {
+    background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+
+  
+  

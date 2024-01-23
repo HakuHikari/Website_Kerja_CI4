@@ -1,0 +1,23 @@
+.bg-custom {
+    background-color: #364F6B;
+    /* Mengatur warna teks menjadi putih */
+  }
+.profile-image {
+    margin-right: 100px;
+  }
+
+  .navbar-brand,
+  .navbar-nav.ml-auto .nav-item {
+    margin-left: 100px;
+  }
+
+  .navbar .dropdown-toggle::after {
+    display: none;
+  }
+  .navbar-collapse .nav-link {
+    color: white !important;
+    /* Mengatur warna teks menjadi putih */
+  }
+  
+
+  

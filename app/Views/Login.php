@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="<?= base_url('genshin.ico') ?>" type="image/x-icon">
+    <link rel="shortcut icon" href="<?= base_url('genshin.ico') ?>" type="image/x-icon">
     <title>Login</title>
 
 
@@ -35,7 +37,7 @@
                     </div>
 
                     <div class="signin-form">
-                        <h2 class="form-title">Sign up</h2>
+                        <h2 class="form-title">Sign in</h2>
                         <form method="POST" action="<?= base_url('Home/login') ?>" id="login-form">
                             <div class="form-group">
                                 <label for="your_name"><i class="zmdi zmdi-account material-icons-name"></i></label>
@@ -46,13 +48,19 @@
                                 <input type="password" name="your_pass" id="your_pass" placeholder="Password" />
                             </div>
                             <div class="form-group form-button">
+                                <div class="remember">
+                                    <input type="checkbox" name="remember" id="remember" class="agree-term" />
+                                    <label for="remember" class="label-agree-term"><span><span></span></span>Remember
+                                        me</label>
+                                </div>
+                            </div>
+                            <div class="form-group form-button">
                                 <input type="submit" name="signin" id="signin" class="form-submit" value="Log in" />
                             </div>
                         </form>
 
 
-                         <!-- Menampilkan pesan error  -->
-                         <?php
+                        <?php
                         $error = session()->getFlashdata('error');
                         if ($error) {
                             echo '<div class="error-message">' . $error . '</div>';

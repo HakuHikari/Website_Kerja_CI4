@@ -9,7 +9,8 @@
 
 
     <link rel="stylesheet" href="fonts/material-icon/css/material-design-iconic-font.min.css">
-
+    <link rel="icon" href="<?= base_url('genshin.ico') ?>" type="image/x-icon">
+    <link rel="shortcut icon" href="<?= base_url('genshin.ico') ?>" type="image/x-icon">
     <link rel="stylesheet" href="css/style.css">
     <style>
         body {

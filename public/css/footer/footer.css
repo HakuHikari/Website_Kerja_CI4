@@ -1,0 +1,30 @@
+body {
+    background-color: #f8f9fa;
+}
+
+footer {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 20px 0;
+}
+
+.footer-left a {
+    justify-content: center;
+    color: white;
+  }
+  
+  /* Warna link saat hover menjadi aqua */
+  .footer-left a:hover {
+    color: aqua;
+  }
+
+.footer-left,
+.footer-center,
+.footer-right {
+    text-align: center;
+}
+
+.social-icons a {
+    color: #ffffff;
+    margin: 0 10px;
+}

@@ -4,86 +4,115 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homepage Sederhana</title>
+    <title>Homepages</title>
+    <link rel="stylesheet" href="<?= base_url('css/home.css') ?>">
+    <link rel="stylesheet" href="<?= base_url('css/bootstrap.min.css') ?>" />
+    <link rel="icon" href="<?= base_url('genshin.ico') ?>" type="image/x-icon">
+    <link rel="shortcut icon" href="<?= base_url('genshin.ico') ?>" type="image/x-icon">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Overpass:wght@700&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Overpass:wght@700&family=Source+Sans+3:wght@200&display=swap"
+        rel="stylesheet">
     <style>
-        /* Style bisa ditambahkan di sini */
+        /* CSS Anda di sini */
+
         body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
+            background: linear-gradient(112.1deg, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
         }
 
-        header {
-            background-color: #333;
-            color: #fff;
-            padding: 10px 0;
-            text-align: center;
-        }
-
-        nav {
-            display: flex;
-            justify-content: center;
-            background-color: #444;
-            padding: 10px 0;
-        }
-
-        nav a {
-            color: #fff;
-            text-decoration: none;
-            margin: 0 15px;
-        }
-
-        nav a:hover {
-            text-decoration: underline;
-        }
-
-        .container {
-            width: 80%;
-            margin: 20px auto;
-            text-align: center;
-        }
-
-        .main-content {
-            background-color: #fff;
-            padding: 20px;
-            border-radius: 5px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-
-        footer {
-            background-color: #333;
-            color: #fff;
-            text-align: center;
-            padding: 10px 0;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
+        .btn-lg {
+            margin-right: 10px;
         }
     </style>
 </head>
 
 <body>
-    <header>
-        <h1>Selamat Datang di Homepage Sederhana</h1>
-    </header>
-
-    <nav>
-        <a href="#">Beranda</a>
-        <a href="#">Tentang</a>
-        <a href="#">Kontak</a>
-    </nav>
-
     <div class="container">
-        <div class="main-content">
-            <h2>Selamat datang!</h2>
-            <p>Ini adalah halaman utama yang sederhana untuk contoh.</p>
+        <div class="content">
+            <div class="text-big">
+                <h1 class="display-4">KEBEBASAN DALAM KREATIVITAS</h1>
+            </div>
+            <div class="text-small">
+                <p class="lead">Temukan solusi digital yang inovatif untuk setiap proyek Anda dengan layanan freelance
+                    kami yang beragam.</p>
+                <p class="lead">Temukan beragam layanan freelance untuk memenuhi kebutuhan proyek Anda dengan
+                    profesionalisme dan keahlian yang handal.</p>
+            </div>
+            <div>
+            <a href="buat" class="btn btn-lg btn-primary">Buat Proyek</a>
+            <a href="project" class="btn btn-lg btn-secondary">Cari Proyek</a>
+            </div>
+        </div>
+        <div class="image">
+            <img src="https://i.pinimg.com/564x/41/08/5f/41085f8d8b90fb240835c71217a4df1d.jpg" width="350px"
+                height="450px" alt="Gambar Anda" class="hide-on-mobile">
         </div>
     </div>
 
-    <footer>
-        <p>Hak Cipta © 2023 - Homepage Sederhana</p>
-    </footer>
+
+
+<div class="middle-container">
+  <div class="row">
+    <div class="col-md-6">
+      <img src="images/kerja1.jpg" alt="Gambar Anda" class="img-fluid middle-image">
+    </div>
+    <div class="col-md-6 d-flex align-items-left">
+      <div class="Deskripsi text-left">
+        <h2>Kerja Dari Rumah</h2>
+        <p>Menjadi seorang freelancer memberikan kebebasan untuk bekerja dari rumah atau dari mana pun Anda inginkan. Dengan kemajuan teknologi, banyak pekerjaan yang dapat dilakukan secara online, mulai dari penulisan konten, desain grafis, pengembangan web, hingga layanan konsultasi.</p>
+        <p>Keuntungan menjadi seorang freelancer termasuk fleksibilitas waktu, kemampuan untuk mengatur jadwal kerja sendiri, serta peluang untuk bekerja dengan klien dari berbagai belahan dunia.</p>
+        <p>Jika Anda memiliki keterampilan tertentu dan ingin menjelajahi dunia pekerjaan freelance, ada banyak platform online yang memungkinkan Anda untuk menemukan proyek-proyek menarik dan membangun portofolio Anda.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+    <div class="bottom-container">
+        <div class="category-text">Jelajahi Dunia Freelance</div>
+        <ul>
+            <li style="--accent-color:#60c5a6">
+                <div class="icon"><i class="fas fa-video"></i></div>
+                <div class="title">Video Editor</div>
+                <div class="descr">Video editor adalah orang yang bertanggung jawab untuk mengedit video. Mereka
+                    menggunakan perangkat lunak editing video untuk memotong, menyisipkan, dan menambahkan efek ke
+                    video.</div>
+            </li>
+            <li style="--accent-color:#f20071">
+                <div class="icon"><i class="fas fa-code"></i></div>
+                <div class="title">Developer</div>
+                <div class="descr">Pengembang adalah orang yang bertanggung jawab untuk membuat perangkat lunak. Mereka
+                    menggunakan bahasa pemrograman untuk membuat kode yang dapat dijalankan oleh komputer.</div>
+            </li>
+            <li style="--accent-color:#FCBA35">
+                <div class="icon"><i class="fas fa-paint-brush"></i></div>
+                <div class="title">Designer</div>
+                <div class="descr">Desainer adalah orang yang bertanggung jawab untuk menciptakan karya visual. Mereka
+                    dapat bekerja di berbagai bidang, termasuk desain grafis, desain web, desain produk, dan desain
+                    interior.</div>
+            </li>
+            <li style="--accent-color:#DAE438">
+                <div class="icon"><i class="fas fa-pencil-alt"></i></div>
+                <div class="title">Writer</div>
+                <div class="descr">Penulis adalah orang yang bertanggung jawab untuk menciptakan teks. Mereka dapat
+                    bekerja di berbagai bidang, termasuk penulisan konten, penulisan kreatif, dan penulisan teknis.
+                </div>
+            </li>
+        </ul>
+    </div>
+
+
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 
 </html>

@@ -17,7 +17,6 @@
 Website ini menggunakan MySQL sebagai sistem manajemen basis data. Pastikan Anda telah membuat database dengan nama "users" dan tabel-tabel berikut:
 
 1. <strong>Tabel User:</strong>
-   ```html
    <pre>
    &lt;table&gt;
      &lt;tr&gt;
@@ -31,7 +30,6 @@ Website ini menggunakan MySQL sebagai sistem manajemen basis data. Pastikan Anda
    </pre>
 
 2. <strong>Tabel Project:</strong>
-   ```html
    <pre>
    &lt;table&gt;
      &lt;tr&gt;
@@ -50,7 +48,6 @@ Website ini menggunakan MySQL sebagai sistem manajemen basis data. Pastikan Anda
    </pre>
 
 3. <strong>Tabel Forum:</strong>
-   ```html
    <pre>
    &lt;table&gt;
      &lt;tr&gt;

@@ -1,4 +1,3 @@
-<!-- Kerja - Platform Freelance untuk IT -->
 
 <h1 align="center">Kerja - Platform Freelance untuk IT</h1>
 
@@ -41,8 +40,6 @@ Website ini menggunakan MySQL sebagai sistem manajemen basis data. Pastikan Anda
        &lt;th&gt;deadline&lt;/th&gt;
        &lt;th&gt;budget&lt;/th&gt;
        &lt;th&gt;payment&lt;/th&gt;
-       &lt;th&gt;user_id&lt;/th&gt;
-       <!-- tambahkan kolom lain sesuai kebutuhan -->
      &lt;/tr&gt;
    &lt;/table&gt;
    </pre>
@@ -54,7 +51,6 @@ Website ini menggunakan MySQL sebagai sistem manajemen basis data. Pastikan Anda
        &lt;th&gt;id&lt;/th&gt;
        &lt;th&gt;nama&lt;/th&gt;
        &lt;th&gt;pesan&lt;/th&gt;
-       &lt;th&gt;user_id&lt;/th&gt;
        <!-- tambahkan kolom lain sesuai kebutuhan -->
      &lt;/tr&gt;
    &lt;/table&gt;
@@ -65,5 +61,5 @@ Pastikan untuk mengonfigurasi koneksi database Anda dengan menyesuaikan informas
 ## Screenshoot
 <img src="Screenshoot/Beranda.png" alt="Screenshoot Aplikasi CI4" width="500" />
 <img src="Screenshoot/Buat.png" alt="Screenshoot Aplikasi CI4" width="500" />
-<img src="Screenshoot/Screenshoot.png" alt="Screenshoot Aplikasi CI4" width="500" />
+<img src="Screenshoot/proyek.png" alt="Screenshoot Aplikasi CI4" width="500" />
 <img src="Screenshoot/gif1.gif" alt="Screenshoot Aplikasi CI4" width="500" />
